@@ -56,10 +56,10 @@ _\    /__/       )_| |_\ \___)      (__
 out of that:
 
 <TABLE>
-<THEAD>
-<TR><TH>category.json</TH><TH>identified_object.json</TH><TH>price.json</TH><TH>product_full.json</TH><TH>product_short.json</TH></TR>
-</THEAD>
 <TBODY>
+<TR>
+ <TH>category.json</TH>
+</TR>
 <TR>
  <TD>
   <PRE>{
@@ -76,6 +76,11 @@ out of that:
     }
 }</PRE>
  </TD>
+</TR>
+<TR>
+ <TH>identified_object.json</TH>
+</TR>
+<TR>
  <TD>
   <PRE>{
     "title": "Identity field for all objects",
@@ -90,7 +95,12 @@ out of that:
         }
     }
 }</PRE>
- </TD
+ </TD>
+</TR>
+<TR>
+ <TH>price.json</TH>
+</TR>
+<TR>
  <TD>
   <PRE>{
     "title": "Monetary price",
@@ -105,7 +115,12 @@ out of that:
         }
     }
 }</PRE>
- </TD
+ </TD>
+</TR>
+<TR>
+ <TH>product_full.json</TH>
+</TR>
+<TR>
  <TD>
   <PRE>{
     "title": "Product (Full View)",
@@ -126,7 +141,12 @@ out of that:
         }
     }
 }</PRE>
- </TD
+ </TD>
+</TR>
+<TR>
+ <TH>product_short.json</TH>
+</TR>
+<TR>
  <TD>
   <PRE>{
     "title": "Product (Short View)",
@@ -147,7 +167,7 @@ out of that:
         }
     }
 }</PRE>
- </TD
+ </TD>
 </TR>
 </TBODY>
 </TABLE>
