@@ -1,0 +1,13 @@
+#! /bin/sh
+
+mkdir -p /tmp/jerg
+
+./jerg -s test/schemas/single.json -t /tmp/jerg/single.hrl
+diff -I ".*Generated.*" test/records/single.hrl /tmp/jerg/single.hrl
+
+./jerg -s test/schemas/multiple -t /tmp/jerg/multiple.hrl
+diff -I ".*Generated.*" test/records/multiple.hrl /tmp/jerg/multiple.hrl
+
+./jerg -s test/schemas/multiple -t /tmp/jerg/multiple_prefix.hrl -p pre_
+diff -I ".*Generated.*" test/records/multiple_prefix.hrl /tmp/jerg/multiple_prefix.hrl
+

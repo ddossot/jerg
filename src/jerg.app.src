@@ -1,0 +1,9 @@
+{application, jerg,
+ [
+  {description, "JSON Schema to Erlang Records Generator"},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {mod, {jerg, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,10 @@
+deps
+*.beam
+erl_crash.dump
+.eunit
+.project
+ebin
+doc
+.settings
+jerg
+

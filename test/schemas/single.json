@@ -1,0 +1,59 @@
+{
+    "type" : "object",
+    "recordName" : "types_showcase",
+    "properties" : {
+        "booleanProperty" : {
+            "type" : "boolean"
+        },
+        "stringProperty" : {
+            "type" : "string"
+        },
+        "integerProperty" : {
+            "type" : "integer"
+        },
+        "numberProperty" : {
+            "type" : "number"
+        },
+        "arrayProperty" : {
+            "type" : "array"
+        },
+        "nullProperty" : {
+            "type" : "null"
+        },
+        "anyProperty" : {
+            "type" : "any"
+        },
+        "objectProperty" : {
+            "type" : "object",
+            "properties" : {
+                "property" : {
+                    "type" : "string"
+                }
+            }
+        },
+        "defaultProperty" : {
+        },
+        "unknownProperty" : {
+            "type" : "some_unknown_type"
+        },
+        "primitiveErlangType" : {
+            "type" : "file:io_device"
+        },
+        "string_enum_Property" : {
+            "type" : "string",
+            "enum" : ["one", "secondOne", "3rd one", "4 ! 1", null]
+        },
+        "integer_enum_Property" : {
+            "type" : "integer",
+            "enum" : [1, 2, null]
+        },
+        "number_enum_Property" : {
+            "type" : "number",
+            "enum" : [1.1, 2.2, null]
+        },
+        "boolean_enum_Property" : {
+            "type" : "boolean",
+            "enum" : [true, false, null]
+        }
+    }
+}

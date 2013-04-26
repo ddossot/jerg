@@ -1,0 +1,19 @@
+{
+    "title": "Product (Short View)",
+    "description" : "Intended to be used in search results",
+    "type": "object",
+    "extends" : {
+        "$ref": "identified_object.json"
+    },
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "list_price": {
+            "$ref": "price.json"
+        },
+        "discount_price": {
+            "$ref": "price.json"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Product (Full View)",
+    "description" : "Intended to be used when full description is needed",
+    "type": "object",
+    "extends" : {
+        "$ref": "product_short.json"
+    },
+    "properties": {
+        "description": {
+            "type": "string"
+        },
+        "categories": {
+            "type" : "array",
+            "items" : {
+              "$ref": "category.json"
+            }
+        }
+    }
+}

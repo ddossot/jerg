@@ -1,0 +1,13 @@
+{
+    "title": "Product Category",
+    "recordName": "product_category",
+    "type": "object",
+    "extends" : {
+        "$ref": "identified_object.json"
+    },
+    "properties": {
+        "name": {
+            "type": "string"
+        }
+    }
+}

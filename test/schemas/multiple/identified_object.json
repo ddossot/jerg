@@ -1,0 +1,13 @@
+{
+    "title": "Identity field for all objects",
+    "description" : "Intended to be extended by identified objects",
+    "type": "object",
+    "abstract" : "true",
+    "properties": {
+        "id": {
+            "description" : "Numeric object identity, set to -1 at creation time",
+            "type": "integer",
+            "default" : -1
+        }
+    }
+}

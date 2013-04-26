@@ -1,0 +1,13 @@
+{
+    "title": "Monetary price",
+    "description" : "Intended to be used embedded in other schemas",
+    "type": "object",
+    "properties": {
+        "currency_code": {
+            "type": "string"
+        },
+        "amount": {
+            "type": "number"
+        }
+    }
+}
