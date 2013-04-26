@@ -1,7 +1,7 @@
 {application, jerg,
  [
   {description, "JSON Schema to Erlang Records Generator"},
-  {vsn, "1.0"},
+  {vsn, "1.1-SNAPSHOT"},
   {registered, []},
   {applications, [kernel, stdlib]},
   {mod, {jerg, []}},
