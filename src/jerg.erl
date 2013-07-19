@@ -258,7 +258,7 @@ output_record(SchemaGraph, SchemaId, JsonSchema, IoDevice) ->
 output_object_record(SchemaGraph, SchemaId, JsonSchema, IoDevice) ->
     output_title(JsonSchema, IoDevice),
     output_description(JsonSchema, IoDevice),
-    output("-record(~s,~n~s{~n", [SchemaId, string:chars($ , 8)], IoDevice),
+    output("-record('~s',~n~s{~n", [SchemaId, string:chars($ , 8)], IoDevice),
     output_properties(SchemaGraph, JsonSchema, IoDevice),
     output("~s}).~n~n", [string:chars($ , 8)], IoDevice).
 
